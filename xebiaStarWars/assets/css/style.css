@@ -1,0 +1,107 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.error {
+  color: red;
+  display: inline-block;
+}
+
+.login-box {
+  padding: 30px 36px;
+  margin: calc(50vh - (256px/2)) auto 0;
+  width: 350px;
+  box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.2)
+}
+
+.login-box label {
+  font-size: 16px;
+}
+
+.login-box input {
+  width: 100%;
+  height: 35px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 0 0 20px;
+  padding: 15px;
+}
+
+.login-box input:focus {
+  outline: 0;
+}
+
+.login-box button {
+  float: right;
+  background: #263238;
+  color: #fff;
+  border: 0;
+  padding: 6px 20px;
+}
+
+.login-box button::after {
+  clear: both;
+}
+
+.login-box input,
+.login-box button {
+  display: block;
+}
+
+.login-box .error {
+  margin: 0 0 10px;
+}
+
+.planets-component .search-box {
+  height: 70px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.planets-component .search-box + span {
+  margin: 10px;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+
+.loggedin-user {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.planets-component .planets-container {
+  padding: 15px !important;
+}
+
+.planets-component .planets {
+  display: inline-block;
+  color: #fff;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 5px 5px 0;
+  box-sizing: content-box;
+}
+
+.planets-component .planets span {
+  display: block;
+}
+
+.note {
+  font-size: 16px;
+  padding: 15px;
+}
+
+.problem {
+  color: red;
+}
+
+.solution {
+  color: green;
+}
